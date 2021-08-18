@@ -22,7 +22,7 @@ function faseRichard() {
 
         alert('Muito obrigada, Richard! Bom trabalho. Da próxima vez, você poderia entrar pra tomar um café, que tal?')
 
-        location.href = '../gameover.html' // --~> GAMEOVER
+        location.href = './gameover.html' // --~> GAMEOVER
 
     } else {
         alert('OPÇÃO INVALIDA')
@@ -44,7 +44,7 @@ function faseRichard1() {
     } else if (escolhaRichard1 == 1) {
         alert('Toc! Toc! Você pode achar que é só uma mão decepada se mexendo, mas esse é o Larry. Eu estava esperando ele há muito tempo. Parece que ele gostou de você…\n\n Larry agarra a mão de Richard e o puxa para dentro do pacote, que se lacra imediatamente. Será que ele vai sentir falta da luz do sol? ')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseRichard1()
@@ -66,7 +66,7 @@ function faseRichard2() {
     } else if (escolhaRichard2 == 2) {
         alert('Você entrou em desespero, se jogou pela janela e conseguiu sair da casa....Mas calma, você esqueceu que estava no segundo anda!')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseRichard2()
@@ -89,7 +89,7 @@ function faseRichard3() {
     } else if (escolhaRichard3 == 2) {
         alert('morreu')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseRichard3()

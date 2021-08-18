@@ -13,7 +13,7 @@ function faseMichael () {
     } else {
         alert('morreu')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     }
 }
 
@@ -26,7 +26,7 @@ function faseMichael1 () {
             faseMichael2 ()
         } else {
             alert('')
-            location.href = '../gameover.html'
+            location.href = './gameover.html'
             
         }
 }
@@ -40,7 +40,7 @@ function faseMichael2 () {
         } else {
             alert('')
 
-            location.href = '../gameover.html'
+            location.href = './gameover.html'
         }    
 }
 function faseMichael3 () {
@@ -53,7 +53,7 @@ function faseMichael3 () {
     } else {
         alert('')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     }    
 }
 function faseMichael4 () {
@@ -66,6 +66,6 @@ function faseMichael4 () {
     } else {
         alert('')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     }    
 }

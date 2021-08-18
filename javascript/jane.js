@@ -12,7 +12,7 @@ function faseJane() {
     } else if (escolhaJane == 2) {
         alert('Você decidiu voltar outro dia, essa talvez não tenha sido a melhor escolha.')
 
-        location.href = '../gameover.html'
+        location.href = './gameoverhtml'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseJane()
@@ -30,7 +30,7 @@ function faseJane1() {
     } else if (escolhaJane1 == 2) {
         alert('Na mesa você encontrou uma caixa misteriosa e ao abri-la acabou sendo puxada para dentro da caixa, seria esse seu fim?')
 
-        location.href = '../gameover.html'
+        locationhref = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseJane1()
@@ -49,7 +49,7 @@ function faseJane2() {
     } else if (escolhaJane2 == 1) {
         alert('Opa, esqueci de avisar que essa não é uma estante qualquer! Você quer dar uma espiadinha nessa sala secreta? Bom, agora você não tem escolha… Jane é empurrada para dentro da Sala Secreta e a entrada se fecha nas suas costas. Está tudo escuro, mas lá no fundo ela consegue ver alguns pontos brilhantes. Os pontos vão se aproximando e ela sente mãos tocarem o seu corpo. Ela poderia gritar agora, mas alguém ouviria')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseJane2()
@@ -69,7 +69,7 @@ function faseJane3() {
         alert('Você abre a caixa e deixa a dona da Casa furiosa a última coisa que você escuta é um grito dizendo \n "NÃO, DE NOVO NÃO!"')
         alert('a Dona da casa foi possuída pelo espirito que vive na residência. Sua alma foi retirada de seu corpo!')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseJane3()
@@ -88,7 +88,7 @@ function faseJane4() {
     } else if (escolhaJane4 == 2) {
         alert('Dentro da caixa existia um espirito do mal que possuiria quem abrisse a caixa, ao abrir a Dona da casa foi possuida por esse espirito e acabou matando Jane.')
 
-        location.href = '../gameover.html'
+        location.href = './gameover.html'
     } else {
         alert('OPÇÃO INVALIDA')
         return faseJane4()
