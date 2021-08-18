@@ -1,0 +1,96 @@
+ /* Imagem do fundo da tela */
+
+
+body {       
+    
+    /* position: relative; */
+    /* height: 100vh; */
+    /* width: 100vw;    */
+    background-image: url('https://i.ytimg.com/vi/Aeo8L2oVHAA/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;  
+    align-items: center;             
+}
+
+button {
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 5px;
+    margin-top: 100px;        
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color: red;
+    cursor: pointer;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+
+button:active {
+    background-color: rgb(243, 69, 39);
+}
+
+
+
+footer{   
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    bottom: 0;
+    margin: auto;
+    height: 5vh;
+    font-size: x-large; 
+    background-color: black;   
+    color: white; 
+
+}
+
+
+a:hover {
+    color:red;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);    
+}
+
+
+@media (max-width: 1300px){
+    body {
+        background-color: rgb(245, 50, 50);
+    }
+    
+}
+
+@media (max-width: 600px){
+   
+    footer {
+        display: block;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 300px){
+    footer {
+        display: none;
+    }
+}
+
+
+

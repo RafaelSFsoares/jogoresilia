@@ -1,0 +1,67 @@
+
+
+body {
+    background-image: url(./imagens/imagemindex2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(235, 55, 55);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+}
+
+button #botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+
+@media (max-width: 1300px){
+    body {
+        background-color: rgba(14, 13, 13, 0.794);
+    }
+    
+}
+
+@media (max-width: 600px){
+    footer {
+        display: block;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 300px){
+    footer {
+        display: none;
+    }
+}
