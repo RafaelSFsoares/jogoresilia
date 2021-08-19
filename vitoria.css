@@ -1,0 +1,30 @@
+body {
+    background-image: url('./imagens/vitoria.jpg');
+    
+    
+   
+}
+
+
+a {
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 5px;
+    margin-top: 100px;        
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color: red;
+    cursor: pointer;
+    margin: auto 50%;
+}
+
+a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+
+a:active {
+    background-color: rgb(243, 69, 39);
+}

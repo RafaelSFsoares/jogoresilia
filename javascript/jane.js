@@ -76,7 +76,7 @@ function faseJane3() {
     }
 }
 
-// última fase
+// última fase (CRIAR UMA IMAGEM DE FIM DE JOGO 'VITÓRIA')
 function faseJane4() {
     alert('Que tal abrirmos a caixa juntas?')
     var escolhaJane4 = prompt('Escolha uma ação:\n 1 - Deve ser os antigos brindes de fim de ano, depois a senhora abre. Estou com pressa e preciso ir. \n 2 - Claro! Fiquei curiosa e queria dar uma olhada!')
@@ -84,6 +84,7 @@ function faseJane4() {
 
     if (escolhaJane4 == escolhaAvançar4) {
         alert('Você conseguiu pegar oque precisava e salvou seu emprego na imobiliária. Após alguns vacilos você fez um serviço que ninguém na imobiliaria queria e ganhou pontos com sua chefe!')
+        location.href = './index3.html'
         //faseJane  ()
     } else if (escolhaJane4 == 2) {
         alert('Dentro da caixa existia um espirito do mal que possuiria quem abrisse a caixa, ao abrir a Dona da casa foi possuida por esse espirito e acabou matando Jane.')
