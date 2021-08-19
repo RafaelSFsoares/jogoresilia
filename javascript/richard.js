@@ -107,9 +107,9 @@ function faseRichard4() {
     while (tentativa < 3) {
         var escolhaFaseRichard4 = prompt("Qual chave você escolhe?")
         if (escolhaCertaRichard4 == escolhaFaseRichard4) {
-            alert("Você acertou a chave e conseguiu escapar!") 
-            alert ('FIM!')                       
-            
+            alert("Você acertou a chave e conseguiu escapar!")
+            alert('FIM!')
+
             break;
         }
         else {
